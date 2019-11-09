@@ -9,7 +9,7 @@ do {
         0 {    
             $app = Read-Host "Type in the name of program. Partly entered name is accepted. Do not use quotes"
     
-            Write-Host "`nSearching for '$app" -ForegroundColor Cyan
+            Write-Host "`nSearching for '$app'" -ForegroundColor Cyan
             
             $Scriptblock = { @('HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall', 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall') | % {
                             Get-ItemProperty $_\* | ? { $_.DisplayName -like "*$app*" }}}
