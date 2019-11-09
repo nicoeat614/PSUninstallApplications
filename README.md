@@ -7,5 +7,5 @@ PowerShell script that prompts the user for options to uninstall applications th
 * The script will run in a loop until you select "No" in the main choice options or you decide to break out of it with __CTRL+C__. 
 
 ### Screenshot:
-![alt-text](https://raw.githubusercontent.com/nicoeat614/PSUninstallApplications/master/MainImage.JPG)
+![alt-text](https://raw.githubusercontent.com/nicoeat614/PSUninstallApplications/master/srcImage.JPG)
 
